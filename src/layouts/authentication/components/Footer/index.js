@@ -57,7 +57,7 @@ function Footer({ full }) {
             sx={{ textAlign: "center", fontWeight: "400 !important" }}
             color="white"
           >
-            @ 2021, Made with ❤️&nbsp;&nbsp;&nbsp; by{" "}
+            Powered by{" "} 
             <VuiTypography
               component="a"
               variant="button"
@@ -66,41 +66,21 @@ function Footer({ full }) {
               color="white"
               mr="2px"
             >
-              Simmmple
-            </VuiTypography>
-            &
+              together
+            </VuiTypography> 
+            A visionary product of{" "}  
             <VuiTypography
-              ml="2px"
-              mr="2px"
               component="a"
               variant="button"
               href="#"
               sx={{ textAlign: "center", fontWeight: "500 !important" }}
               color="white"
+              mr="2px"
             >
-              Creative Tim
+              Fireworks Digital
             </VuiTypography>
-            for a better web
+            © 2024 Mobility Asia Sdn. Bhd. (Registration No: 1257623-M)
           </VuiTypography>
-        </Grid>
-        <Grid item xs={full ? 10 : 10} lg={full ? 6 : 10}>
-          <VuiBox display="flex" justifyContent="center" flexWrap="wrap" mb={3}>
-            <VuiBox mr={{ xs: "20px", lg: "46px" }}>
-              <VuiTypography component="a" href="#" variant="body2" color="white">
-                Marketplace
-              </VuiTypography>
-            </VuiBox>
-            <VuiBox mr={{ xs: "20px", lg: "46px" }}>
-              <VuiTypography component="a" href="#" variant="body2" color="white">
-                Blog
-              </VuiTypography>
-            </VuiBox>
-            <VuiBox>
-              <VuiTypography component="a" href="#" variant="body2" color="white">
-                License
-              </VuiTypography>
-            </VuiBox>
-          </VuiBox>
         </Grid>
       </Grid>
     </VuiBox>

@@ -15,7 +15,7 @@
 
 */
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -38,15 +38,26 @@ import palette from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 
 // Images
-import illustrationImage from "assets/images/illustration-image.png";
+import illustrationImage from "assets/images/together-background.png";
 
 // Authentication layout components
 import IllustrationLayout from "layouts/authentication/components/IllustrationLayout";
 
-function Illustration() {
-  const [rememberMe, setRememberMe] = useState(false);
+import DefaultPricingCard from "examples/Cards/PricingCards/DefaultPricingCard";
 
-  const handleSetRememberMe = () => setRememberMe(!rememberMe);
+function Illustration() {
+  useEffect(() => {
+    $(document).ready(function () {
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true
+      });
+    });
+  }, []);
 
   return (
     <IllustrationLayout
@@ -58,7 +69,7 @@ function Illustration() {
       top={20}
     >
       <VuiBox component="form" role="form">
-        <VuiBox mb={2}>
+        {/* <VuiBox mb={2}>
           <VuiBox mb={1} ml={0.5}>
             <VuiTypography component="label" variant="button" color="white" fontWeight="medium">
               Email
@@ -95,37 +106,61 @@ function Illustration() {
           >
             <VuiInput type="password" placeholder="Your password..." />
           </GradientBorder>
-        </VuiBox>
-        <VuiBox display="flex" alignItems="center">
-          <VuiSwitch color="info" checked={rememberMe} onChange={handleSetRememberMe} />
-          <VuiTypography
-            variant="caption"
-            color="white"
-            fontWeight="medium"
-            onClick={handleSetRememberMe}
-            sx={{ cursor: "pointer", userSelect: "none" }}
-          >
-            &nbsp;&nbsp;&nbsp;&nbsp;Remember me
-          </VuiTypography>
-        </VuiBox>
+        </VuiBox> */}
+        <div class="carousel" style={{ display: "flex", overflowX: "hidden" }}>
+          <div style={{ minWidth: "100%" }}>
+            <DefaultPricingCard
+              badge={{ color: "secondary", label: "premium" }}
+              price={{ currency: "$", value: "89" }}
+              specifications={[
+                { label: "10 team members", includes: true },
+                { label: "40GB Cloud storage", includes: true },
+                { label: "Integration help", includes: true },
+                { label: "Sketch Files", includes: true },
+                { label: "API Access", includes: false },
+                { label: "Complete documentation", includes: false },
+              ]}
+              action={{
+                type: "internal",
+                route: "/",
+                color: "info",
+                label: "join",
+              }}
+            />
+          </div>
+          <div style={{ minWidth: "100%" }}>
+            <DefaultPricingCard
+              badge={{ color: "secondary", label: "premium" }}
+              price={{ currency: "$", value: "89" }}
+              specifications={[
+                { label: "10 team members", includes: true },
+                { label: "40GB Cloud storage", includes: true },
+                { label: "Integration help", includes: true },
+                { label: "Sketch Files", includes: true },
+                { label: "API Access", includes: false },
+                { label: "Complete documentation", includes: false },
+              ]}
+              action={{
+                type: "internal",
+                route: "/",
+                color: "info",
+                label: "join",
+              }}
+            />
+          </div>
+        </div>
         <VuiBox mt={4} mb={1}>
-          <VuiButton color="info" fullWidth>
-            SIGN IN
+          <VuiButton style={{ background: "#F5367B", color: "#FFFFFF" }} fullWidth>
+            SIGN UP
           </VuiButton>
         </VuiBox>
-        <VuiBox mt={3} textAlign="center">
-          <VuiTypography variant="button" color="text" fontWeight="regular">
-            Don&apos;t have an account?{" "}
-            <VuiTypography
-              component={Link}
-              to="/authentication/sign-up/illustration"
-              variant="button"
-              color="white"
-              fontWeight="medium"
-            >
-              Sign up
-            </VuiTypography>
-          </VuiTypography>
+        <VuiBox mt={4} mb={1}>
+          <VuiButton
+            style={{ background: "transparent", color: "#F5367B", border: "1px solid #F5367B" }}
+            fullWidth
+          >
+            LOG IN
+          </VuiButton>
         </VuiBox>
       </VuiBox>
     </IllustrationLayout>

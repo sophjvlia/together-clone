@@ -38,15 +38,12 @@ import palette from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 
 // Images
-import illustrationImage from "assets/images/illustration-image.png";
+import illustrationImage from "assets/images/together-background.png";
 
 // Authentication layout components
 import IllustrationLayout from "layouts/authentication/components/IllustrationLayout";
 
 function Illustration() {
-  const [rememberMe, setRememberMe] = useState(false);
-
-  const handleSetRememberMe = () => setRememberMe(!rememberMe);
 
   return (
     <IllustrationLayout
@@ -132,20 +129,8 @@ function Illustration() {
             />
           </GradientBorder>
         </VuiBox>
-        <VuiBox display="flex" alignItems="center">
-          <VuiSwitch color="info" checked={rememberMe} onChange={handleSetRememberMe} />
-          <VuiTypography
-            variant="caption"
-            color="white"
-            fontWeight="medium"
-            onClick={handleSetRememberMe}
-            sx={{ cursor: "pointer", userSelect: "none" }}
-          >
-            &nbsp;&nbsp;&nbsp;&nbsp;Remember me
-          </VuiTypography>
-        </VuiBox>
         <VuiBox mt={4} mb={1}>
-          <VuiButton color="info" fullWidth>
+          <VuiButton style={{ background: "#F5367B", color: "#FFFFFF" }} fullWidth>
             SIGN UP
           </VuiButton>
         </VuiBox>
@@ -159,7 +144,7 @@ function Illustration() {
               color="white"
               fontWeight="medium"
             >
-              Sign in
+              Log in
             </VuiTypography>
           </VuiTypography>
         </VuiBox>

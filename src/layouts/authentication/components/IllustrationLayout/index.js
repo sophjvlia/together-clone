@@ -45,36 +45,27 @@ import tripleLinearGradient from "assets/theme/functions/tripleLinearGradient";
 // Images
 import pattern from "assets/images/shapes/pattern-lines.svg";
 
+import rgba from "assets/theme/functions/rgba";
+
 function IllustrationLayout({ color, header, title, description, illustration, children, top }) {
   const { gradients } = colors;
   return (
     <PageLayout
-      background={tripleLinearGradient(
-        gradients.cover.main,
-        gradients.cover.state,
-        gradients.cover.stateSecondary,
-        gradients.cover.angle
-      )}
+      style={{
+        background: "linear-gradient(45deg, rgba(15, 18, 59), rgb(245, 54, 123), rgba(59, 15, 57))",
+      }}
     >
-      <DefaultNavbar
-        routes={pageRoutes}
-        action={{
-          type: "external",
-          route: "https://creative-tim.com/product/vision-ui-dashboard-pro-react",
-          label: "buy now",
-        }}
-      />
       <VuiBox
         height="100%"
         width="50vw"
         display={{ xs: "none", md: "block" }}
         position="absolute"
         top={0}
-        right={0}
+        left={0}
         sx={({ breakpoints }) => ({
           overflow: "hidden",
           [breakpoints.down("xl")]: {
-            ml: "100px",
+            mr: "100px",
           },
           [breakpoints.down("lg")]: {
             display: "none",
@@ -93,7 +84,6 @@ function IllustrationLayout({ color, header, title, description, illustration, c
           textAlign="center"
           variant="gradient"
           m={0}
-          px={{ xs: 13, lg: 6, xl: 13 }}
           sx={{
             overflow: "hidden",
             background: linearGradient(
@@ -110,8 +100,24 @@ function IllustrationLayout({ color, header, title, description, illustration, c
               alt="chat-illustration"
               width="100%"
               maxWidth="100%"
+              height="100%"
+              sx={{ objectFit: "cover" }}
             />
           )}
+          <VuiBox
+            position="absolute"
+            top="50%"
+            transform="translate(-50%, -50%)"
+            textAlign="center"
+            color="white"
+          >
+            <VuiTypography variant="h2" color="inherit" style={{ fontSize: "1.2rem", letterSpacing: "8px", marginBottom: "0.5rem" }}>
+              COMMUNITY POWERED COMMERCE
+            </VuiTypography>
+            <VuiTypography variant="h6" color="inherit" style={{ fontSize: "2.3rem", letterSpacing: "8px" }} gutterBottom>
+              Togethër
+            </VuiTypography>
+          </VuiBox>
         </VuiBox>
       </VuiBox>
 
@@ -128,7 +134,7 @@ function IllustrationLayout({ color, header, title, description, illustration, c
       >
         <VuiBox
           mt={top}
-          mr="auto !important"
+          ml="auto !important"
           sx={({ breakpoints }) => ({
             [breakpoints.down("xl")]: {
               ml: "30px",
