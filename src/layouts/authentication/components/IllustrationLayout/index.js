@@ -156,20 +156,23 @@ function IllustrationLayout({ color, header, title, description, illustration, c
             pl={{ xs: 3, xl: 2 }}
             mx={{ xs: "auto !important", xl: "unset !important" }}
             maxWidth={"350px"}
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
           >
             <>
               <VuiBox mb="35px">
                 <VuiTypography
-                  textAlign={"start"}
-                  variant="h3"
+                  textAlign={"center"}
+                  variant="h2"
                   fontWeight="bold"
                   color="white"
-                  mb="10px"
+                  mb="30px"
                 >
                   {title}
                 </VuiTypography>
                 <VuiTypography
-                  textAlign={"start !important"}
+                  textAlign={"center !important"}
                   mx="auto"
                   sx={({ typography: { size }, functions: { pxToRem } }) => ({
                     fontWeight: "regular",
@@ -191,7 +194,7 @@ function IllustrationLayout({ color, header, title, description, illustration, c
             ml="auto !important"
             sx={({ breakpoints }) => ({
               mt: { top },
-              maxWidth: "350px",
+              maxWidth: "480px",
               [breakpoints.down("xl")]: {
                 mr: "100px",
               },

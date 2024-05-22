@@ -26,7 +26,7 @@ export default {
     scrollBehavior: "smooth",
   },
   body: {
-    background: `url(${bgAdmin})`,
+    background: `linear-gradient(166deg, rgb(15, 18, 59), rgb(77, 20, 82), rgb(59, 15, 57)) !important`,
     backgroundColor: `#030c1d !important`,
     backgroundSize: "cover",
   },
