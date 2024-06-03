@@ -15,7 +15,8 @@
 
 */
 
-import { useState, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useLocation } from 'react-router-dom';
 
 // react-router-dom components
 import { Link } from "react-router-dom";
@@ -62,6 +63,19 @@ function Illustration() {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+
+  const swiperRef = useRef(null); 
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    if (params.get('signup') === 'true' && swiperRef.current) {
+      swiperRef.current.slickGoTo(1); 
+
+      setTitle('Sign Up');
+      setDescription('Enter your name, phone number and password to sign up');
+    }
+  }, [location]);
 
   const handleSignUp = async () => {
     const phone = phoneNumber.replace(/(60|0|\+)/g, "");
@@ -187,7 +201,6 @@ function Illustration() {
     arrows: false,
   };
 
-  const swiperRef = useRef(null); 
 
   const handleSignUpClick = () => {
     setTitle('Sign Up');
