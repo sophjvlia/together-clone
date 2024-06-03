@@ -355,12 +355,13 @@ function Illustration() {
           </Slider>
         </div>
         <VuiBox mt={4} mb={2}>
-          <VuiButton href="./authentication/sign-up/illustration" style={{ background: "#F5367B", color: "#FFFFFF" }} fullWidth>
+          <VuiButton href="/vision-ui-dashboard-pro-react#/authentication/sign-up/illustration" style={{ background: "#F5367B", color: "#FFFFFF" }} fullWidth>
             SIGN UP
           </VuiButton>
         </VuiBox>
         <VuiBox mb={1}>
           <VuiButton
+            href="/vision-ui-dashboard-pro-react#/authentication/sign-up/illustration"
             style={{ background: "transparent", color: "#F5367B", border: "1px solid #F5367B" }}
             fullWidth
           >

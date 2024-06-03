@@ -34,12 +34,7 @@ function Footer({ full }) {
     <VuiBox
       component="footer"
       py={6}
-      sx={({ breakpoints }) => ({
-        maxWidth: full ? "100%" : "450px",
-        [breakpoints.down("xl")]: {
-          maxWidth: full ? "100%" : "400px",
-        },
-      })}
+      fullWidth
     >
       <Grid
         container
@@ -49,6 +44,7 @@ function Footer({ full }) {
           [breakpoints.down("xl")]: {
             maxWidth: full ? "100%" : "400px",
           },
+          mx: "auto",
         })}
       >
         <Grid item xs={full ? 12 : 12} lg={full ? 6 : 12} sx={{ textAlign: "center" }}>

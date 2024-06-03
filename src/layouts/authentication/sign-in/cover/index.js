@@ -54,6 +54,8 @@ import rebirthnft from "assets/images/rebirthnft.png";
 import luckynft from "assets/images/luckynft.png";
 
 function Illustration() {
+  const [isLoading, setIsLoading] = useState(false);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -64,6 +66,27 @@ function Illustration() {
     autoplaySpeed: 5000,
     arrows: true,
   };
+
+
+  const handleLogOut = async () => {
+    setIsLoading(true);
+  
+    try {
+      const response = await fetch("http://localhost:5000/logout");
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      window.location.href = '/vision-ui-dashboard-pro-react#/authentication/sign-up/illustration';
+
+    } catch (error) {
+      console.error("Error:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
 
   return (
     <IllustrationLayout
@@ -315,10 +338,11 @@ function Illustration() {
         </div>
         <VuiBox mt={4} mb={1}>
           <VuiButton
+            onClick={handleLogOut}
             style={{ background: "transparent", color: "#F5367B", border: "1px solid #F5367B" }}
             fullWidth
           >
-            LOG OUT
+            {isLoading ? 'Logging out' : 'LOG OUT'} 
           </VuiButton>
         </VuiBox>
       </VuiBox>

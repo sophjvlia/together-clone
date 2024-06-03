@@ -1,0 +1,211 @@
+{"level":"info","message":"Attempting registration for email: Sophie","timestamp":"2024-05-31T11:11:04.015Z"}
+{"level":"error","message":"Error registering user: fetch is not a function","timestamp":"2024-05-31T11:11:04.017Z"}
+{"level":"info","message":"Attempting registration for email: Sophie","timestamp":"2024-05-31T11:11:29.292Z"}
+{"level":"error","message":"Error registering user: fetch is not a function","timestamp":"2024-05-31T11:11:29.293Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:13:49.843Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:17:09.943Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:17:09.948Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:18:10.551Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:18:10.557Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:20:35.368Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:22:59.276Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:22:59.283Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:24:22.773Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:24:22.778Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:28:17.529Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:28:17.534Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:28:47.638Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:28:47.639Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:29:53.957Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:29:53.963Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:31:48.072Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:31:48.078Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:33:53.384Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:33:53.388Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:36:20.935Z"}
+{"level":"error","message":"Error in /signup route: fetch is not a function","timestamp":"2024-05-31T11:36:20.947Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:58:12.196Z"}
+{"level":"warn","message":"Registration failed for user: Sophie, Reason: Invalid credentials","timestamp":"2024-05-31T11:58:12.935Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T11:59:09.673Z"}
+{"level":"warn","message":"Registration failed for user: Sophie, Reason: Invalid credentials","timestamp":"2024-05-31T11:59:10.162Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T12:00:34.820Z"}
+{"level":"warn","message":"Registration failed for user: Sophie, Reason: Invalid credentials","timestamp":"2024-05-31T12:00:35.004Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T12:07:26.241Z"}
+{"level":"warn","message":"Registration failed for user: Sophie, Reason: Invalid credentials","timestamp":"2024-05-31T12:07:26.923Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T15:52:59.366Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T15:53:04.518Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:02:10.975Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:02:10.979Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:02:11.448Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:08:27.207Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:08:27.208Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:08:29.339Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:15:45.798Z"}
+{"level":"info","message":"Request body:","timestamp":"2024-05-31T16:15:45.799Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:15:46.420Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:16:00.114Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:16:00.114Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:16:00.959Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:21:19.337Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:21:19.337Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:21:19.905Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:21:57.341Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:21:57.346Z"}
+{"level":"info","message":"Encoded body:","timestamp":"2024-05-31T16:21:57.347Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:21:57.956Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:23:07.977Z"}
+{"fname":"S","level":"info","lname":"C","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:23:07.983Z"}
+{"level":"info","message":"Encoded body:","timestamp":"2024-05-31T16:23:07.984Z"}
+{"level":"error","message":"Error in /signup route: Request with GET/HEAD method cannot have body","timestamp":"2024-05-31T16:23:07.992Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:27:28.759Z"}
+{"fname":"S","level":"info","lname":"C","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-05-31T16:27:28.760Z"}
+{"level":"info","message":"Encoded body:","timestamp":"2024-05-31T16:27:28.761Z"}
+{"level":"error","message":"Error in /signup route: Request with GET/HEAD method cannot have body","timestamp":"2024-05-31T16:27:28.762Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:28:18.791Z"}
+{"level":"info","message":"Request body:","timestamp":"2024-05-31T16:28:18.795Z"}
+{"level":"info","message":"Encoded body: fname=S&lname=C&promo=false&pass=Test123!&phone=12345678&phone_country=60","timestamp":"2024-05-31T16:28:18.796Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:28:19.373Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-05-31T16:52:07.536Z"}
+{"level":"info","message":"Request body:","timestamp":"2024-05-31T16:52:07.546Z"}
+{"level":"info","message":"Encoded body: fname=S&lname=C&promo=false&pass=Test123!&phone=12345678&phone_country=60","timestamp":"2024-05-31T16:52:07.546Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-05-31T16:52:08.300Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T02:47:11.195Z"}
+{"level":"info","message":"Request body:","timestamp":"2024-06-01T02:47:11.206Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=162751529&phone_country=60","timestamp":"2024-06-01T02:47:11.207Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-06-01T02:47:15.504Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T02:57:38.187Z"}
+{"level":"error","message":"Error in /signup route: Unexpected token o in JSON at position 1","timestamp":"2024-06-01T02:57:38.193Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:02:25.264Z"}
+{"fname":"S","level":"info","lname":"C","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:02:25.272Z"}
+{"level":"info","message":"Encoded body: fname=S&lname=C&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:02:25.273Z"}
+{"level":"error","message":"Error in /signup route: Unexpected end of JSON input","timestamp":"2024-06-01T03:02:25.745Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:05:55.963Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:05:55.972Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:05:55.972Z"}
+{"level":"error","message":"Error in /signup route: apiResponse is not defined","timestamp":"2024-06-01T03:05:56.688Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:11:54.290Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:11:54.295Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:11:54.296Z"}
+{"level":"error","message":"Error in /signup route: apiResponse is not defined","timestamp":"2024-06-01T03:11:54.987Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:12:53.217Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:12:53.224Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:12:53.225Z"}
+{"level":"error","message":"Error parsing JSON response: Unexpected end of JSON input","stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at C:\\laragon\\www\\together-clone\\app.js:91:23\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2024-06-01T03:12:54.080Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:27:58.062Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:27:58.068Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:27:58.068Z"}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T03:27:58.682Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:28:19.345Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"162751529","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:28:19.346Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=162751529&phone_country=60","timestamp":"2024-06-01T03:28:19.346Z"}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T03:28:19.756Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:36:39.585Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:36:39.590Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:36:39.591Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T03:36:40.511Z"}
+{"alt-svc":["h3=\":443\"; ma=86400"],"cache-control":["no-store, no-cache, must-revalidate"],"cf-cache-status":["DYNAMIC"],"cf-ray":["88cc2926598d9c53-SIN"],"connection":["close"],"content-encoding":["br"],"content-type":["text/html; charset=UTF-8"],"date":["Sat, 01 Jun 2024 03:36:41 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","nel":["{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"],"pragma":["no-cache"],"report-to":["{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=OCcj7ZbMKovIUg6z34z2oClqVphcJaObmO5%2Bag3xdFnveBcqCyHq7cB5W%2BodTHba4VdpXPb88qgFvwPIJkOiQqVzi%2Bm22SxHCjCfvR3T3AB7Jt0KhO3RCeldO10bGGHpr8REQ%2BveZZyzANwSL9q%2FkA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"],"server":["cloudflare"],"set-cookie":["frontend=3229fb1132dae26639e5d6b6bdf6c7ba; expires=Sat, 01-Jun-2024 04:36:41 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-01T03:36:40.512Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T03:36:40.513Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:36:43.471Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:36:43.471Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:36:43.473Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T03:36:43.741Z"}
+{"alt-svc":["h3=\":443\"; ma=86400"],"cache-control":["no-store, no-cache, must-revalidate"],"cf-cache-status":["DYNAMIC"],"cf-ray":["88cc293dcf7f44af-SIN"],"connection":["close"],"content-encoding":["br"],"content-type":["text/html; charset=UTF-8"],"date":["Sat, 01 Jun 2024 03:36:44 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","nel":["{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"],"pragma":["no-cache"],"report-to":["{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=6r5npm76l2uaEMupsWgCzIeswzMllv8euTr21dIfPrjp9VFGBluFXWwkRxbNzTxOf4rMkRnWIDeYCxNPW8qKqwQ7meQWQ4PsMaxTXoEBxjXZXnoDReWdtC%2BUOUDxdb5l6A3RYG9M5jINlYh6bvb42w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"],"server":["cloudflare"],"set-cookie":["frontend=e412da4c3d2423085194fe96a1da9fec; expires=Sat, 01-Jun-2024 04:36:44 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-01T03:36:43.742Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T03:36:43.743Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T03:52:38.359Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T03:52:38.367Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T03:52:38.367Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T03:52:39.081Z"}
+{"alt-svc":["h3=\":443\"; ma=86400"],"cache-control":["no-store, no-cache, must-revalidate"],"cf-cache-status":["DYNAMIC"],"cf-ray":["88cc408f18cf4060-SIN"],"connection":["close"],"content-encoding":["br"],"content-type":["text/html; charset=UTF-8"],"date":["Sat, 01 Jun 2024 03:52:39 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","nel":["{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"],"pragma":["no-cache"],"report-to":["{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=f8tR%2FvMPlWsuvlMskhiKOWaR3MB%2BSsXM2L4Kn8yCz1QrvFbxIyN7sWWLPDzh8iPfskSlcXJyA2Uw%2BZN0t78SrwRujb3miWvqSYJqOCVOuX0Qeoh5UVWt8RL%2FY7LvFgP%2FdS9ixe2PyPk6n9WvcMNC6w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"],"server":["cloudflare"],"set-cookie":["frontend=59139106419b29d29a9df8ebc59f2646; expires=Sat, 01-Jun-2024 04:52:39 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-01T03:52:39.084Z","transfer-encoding":["chunked"]}
+{"level":"error","message":"Error in /signup route: Unexpected end of input 1 0","timestamp":"2024-06-01T03:52:39.102Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T04:15:11.421Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T04:15:11.428Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T04:15:11.428Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T04:15:12.283Z"}
+{"alt-svc":["h3=\":443\"; ma=86400"],"cache-control":["no-store, no-cache, must-revalidate"],"cf-cache-status":["DYNAMIC"],"cf-ray":["88cc6197c9f25fff-SIN"],"connection":["close"],"content-encoding":["br"],"content-type":["text/html; charset=UTF-8"],"date":["Sat, 01 Jun 2024 04:15:12 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","nel":["{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"],"pragma":["no-cache"],"report-to":["{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=YCO3aAmze6qS2Ium67d3DfGDmKZD2kbKbN%2BCrp%2FBEqO9vDcQTPj%2BTwEId1Bh54L4bwbf6TX7V1garKEeaMAPOeAHTOmImfbjt5aOTI%2BlA0dSKr1B6RCwVz7CRWAktCjHPLIan8AHLiTSgMeqpdi%2BFg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"],"server":["cloudflare"],"set-cookie":["frontend=4f0b7e394607a2b6323c8fe81ff75229; expires=Sat, 01-Jun-2024 05:15:12 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-01T04:15:12.285Z","transfer-encoding":["chunked"]}
+{"level":"error","message":"Error in /signup route: [ReadHuffmanCode] invalid num_codes or space","timestamp":"2024-06-01T04:15:12.294Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T04:36:27.244Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T04:36:27.249Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T04:36:27.250Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T04:36:28.485Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=UTF-8"],"date":["Sat, 01 Jun 2024 04:36:28 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=ce17ad6305d73c7b0184f94d03b258b5; expires=Sat, 01-Jun-2024 05:36:28 GMT; Max-Age=3600; path=/","frontend_cid=GJEsJ0TvqrhtIaXp; expires=Sat, 01-Jun-2024 05:36:28 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-01T04:36:28.490Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T04:36:28.491Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T06:01:41.236Z"}
+{"fname":"","level":"info","lname":"","message":"Request body:","pass":"","phone":"","phone_country":60,"promo":false,"timestamp":"2024-06-01T06:01:41.238Z"}
+{"level":"info","message":"Encoded body: fname=&lname=&promo=false&pass=&phone=&phone_country=60","timestamp":"2024-06-01T06:01:41.238Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T06:01:41.716Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Sat, 01 Jun 2024 06:01:41 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=e58e14cd33c23739d09c3a6a5887d227; expires=Sat, 01-Jun-2024 07:01:41 GMT; Max-Age=3600; path=/","frontend_cid=H9sOYeriAejH1iqy; expires=Sat, 01-Jun-2024 07:01:41 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-01T06:01:41.717Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T06:01:41.720Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-01T06:33:17.267Z"}
+{"fname":"","level":"info","lname":"","message":"Request body:","pass":"Test123!","phone":"188852275","phone_country":60,"promo":false,"timestamp":"2024-06-01T06:33:17.276Z"}
+{"level":"info","message":"Encoded body: fname=&lname=&promo=false&pass=Test123!&phone=188852275&phone_country=60","timestamp":"2024-06-01T06:33:17.276Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-01T06:33:17.962Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Sat, 01 Jun 2024 06:33:17 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=f9ffc43219eee43aa050d6afcbaf680a; expires=Sat, 01-Jun-2024 07:33:18 GMT; Max-Age=3600; path=/","frontend_cid=vmnF4oieuhkYWX3Q; expires=Sat, 01-Jun-2024 07:33:18 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-01T06:33:17.963Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-01T06:33:17.965Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T01:54:24.847Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"188888888","phone_country":60,"timestamp":"2024-06-03T01:54:24.850Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=188888888&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T01:54:24.851Z"}
+{"level":"error","message":"Error in /login route: fetch is not defined","timestamp":"2024-06-03T01:54:24.851Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T01:55:12.771Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"188888888","phone_country":60,"timestamp":"2024-06-03T01:55:12.772Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=188888888&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T01:55:12.773Z"}
+{"level":"error","message":"Error in /login route: fetch is not defined","timestamp":"2024-06-03T01:55:12.774Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T02:32:04.410Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"188888888","phone_country":60,"timestamp":"2024-06-03T02:32:04.423Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=188888888&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T02:32:04.424Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T02:32:08.906Z"}
+{"alt-svc":["h3=\":443\"; ma=86400"],"cache-control":["no-store, no-cache, must-revalidate"],"cf-cache-status":["DYNAMIC"],"cf-ray":["88dc454e89748817-SIN"],"connection":["close"],"content-encoding":["gzip"],"content-type":["text/html; charset=UTF-8"],"date":["Mon, 03 Jun 2024 02:32:09 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","nel":["{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"],"pragma":["no-cache"],"report-to":["{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=VKtNGI5Vz6xJei7a%2FWSEoJSpZsjUXVchXxOb1yHYjrZsx95%2Bj1YIAnj%2FzBa%2FV2TGUnyoqAemqz2IsA6GcF60xmyLqYxGXz00e1a8v1cdFkZFhsU28kcNHSKCGB8jDHK%2F9H5EKBkAyFd0YfM3PxmpSw%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"],"server":["cloudflare"],"set-cookie":["frontend=3c250743cf2e8728c52b441c61efdf36; expires=Mon, 03-Jun-2024 03:32:09 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-03T02:32:08.908Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T02:32:08.910Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T04:26:34.536Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"188888888","phone_country":60,"timestamp":"2024-06-03T04:26:34.541Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=188888888&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T04:26:34.542Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T04:26:39.779Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 04:26:36 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=e93dc45bff3686f369104cf44349a96e; expires=Mon, 03-Jun-2024 05:26:40 GMT; Max-Age=3600; path=/","frontend_cid=lHr5qpPda0Zb6PmT; expires=Mon, 03-Jun-2024 05:26:40 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T04:26:39.781Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T04:26:39.782Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T04:27:22.882Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test123!","phone":"188852275","phone_country":60,"timestamp":"2024-06-03T04:27:22.883Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=188852275&phone_country=60&password=Test123!&","timestamp":"2024-06-03T04:27:22.884Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T04:27:26.874Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=UTF-8"],"date":["Mon, 03 Jun 2024 04:27:24 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend_cid=nKi3s2fPlrHlOtGi; expires=Mon, 03-Jun-2024 05:27:24 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure","frontend=d6d0a83d34efe8901257f8d2b3225ea0; expires=Mon, 03-Jun-2024 05:27:26 GMT; Max-Age=3600; path=/"],"timestamp":"2024-06-03T04:27:26.874Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T04:27:26.875Z"}
+{"level":"info","message":"Received a request to /signup","timestamp":"2024-06-03T05:41:39.198Z"}
+{"fname":"Sophie","level":"info","lname":"Crabtree","message":"Request body:","pass":"Test123!","phone":"1298737474","phone_country":60,"promo":false,"timestamp":"2024-06-03T05:41:39.199Z"}
+{"level":"info","message":"Encoded body: fname=Sophie&lname=Crabtree&promo=false&pass=Test123!&phone=1298737474&phone_country=60","timestamp":"2024-06-03T05:41:39.200Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T05:41:45.685Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=UTF-8"],"date":["Mon, 03 Jun 2024 05:41:43 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=33f1e4725ae01dbf596e9a9212e9ab71; expires=Mon, 03-Jun-2024 06:41:43 GMT; Max-Age=3600; path=/","frontend_cid=XY8Kdwlw0hn7z1Kp; expires=Mon, 03-Jun-2024 06:41:43 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T05:41:45.685Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T05:41:45.686Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:38:36.434Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"162751529","phone_country":60,"timestamp":"2024-06-03T11:38:36.446Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=162751529&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T11:38:36.447Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:38:38.595Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:38:37 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=58b0cf958a254010adf2f1565835ace5; expires=Mon, 03-Jun-2024 12:38:37 GMT; Max-Age=3600; path=/","frontend_cid=mo8js1EbWVc66oEF; expires=Mon, 03-Jun-2024 12:38:37 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:38:38.597Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:38:38.598Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:39:14.894Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"162751529","phone_country":60,"timestamp":"2024-06-03T11:39:14.895Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=162751529&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T11:39:14.895Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:39:15.852Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:39:15 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=7997fab160d7868635c7996018256630; expires=Mon, 03-Jun-2024 12:39:15 GMT; Max-Age=3600; path=/","frontend_cid=UMafxJC4sgN0irAa; expires=Mon, 03-Jun-2024 12:39:15 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:39:15.854Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:39:15.855Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:40:05.951Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"162751529","phone_country":60,"timestamp":"2024-06-03T11:40:05.952Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=162751529&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T11:40:05.952Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:40:06.540Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:40:05 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=f3adb0ece728b84fd64141c1ca15c8d7; expires=Mon, 03-Jun-2024 12:40:05 GMT; Max-Age=3600; path=/","frontend_cid=Naeu87DuzaI42NvD; expires=Mon, 03-Jun-2024 12:40:05 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:40:06.541Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:40:06.541Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:43:03.633Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"Test1234!","phone":"162751529","phone_country":60,"timestamp":"2024-06-03T11:43:03.634Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=162751529&phone_country=60&password=Test1234!&","timestamp":"2024-06-03T11:43:03.634Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:43:04.820Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:43:04 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=2dd1540a8047374d88ff4a9d7ea03e7b; expires=Mon, 03-Jun-2024 12:43:04 GMT; Max-Age=3600; path=/","frontend_cid=a2nIlWvSWBs2gfcT; expires=Mon, 03-Jun-2024 12:43:04 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:43:04.820Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:43:04.821Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:44:24.182Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"bfbnsjdk","phone":"18291983","phone_country":60,"timestamp":"2024-06-03T11:44:24.183Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=18291983&phone_country=60&password=bfbnsjdk&","timestamp":"2024-06-03T11:44:24.183Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:44:24.541Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:44:24 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=3d108f6d9fe95ed47e80ff676543862b; expires=Mon, 03-Jun-2024 12:44:24 GMT; Max-Age=3600; path=/","frontend_cid=JSA6hFujqo0XnEFs; expires=Mon, 03-Jun-2024 12:44:24 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:44:24.542Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:44:24.542Z"}
+{"level":"info","message":"Received a request to /login","timestamp":"2024-06-03T11:48:16.617Z"}
+{"isAjax":"true","level":"info","message":"Request body:","password":"bfbnsjdk","phone":"18291983","phone_country":60,"timestamp":"2024-06-03T11:48:16.617Z"}
+{"level":"info","message":"Encoded body: isAjax=true&phone=18291983&phone_country=60&password=bfbnsjdk&","timestamp":"2024-06-03T11:48:16.617Z"}
+{"level":"info","message":"API response status:","timestamp":"2024-06-03T11:48:17.033Z"}
+{"cache-control":["no-store, no-cache, must-revalidate"],"connection":["close"],"content-type":["text/html; charset=utf-8"],"date":["Mon, 03 Jun 2024 11:48:16 GMT"],"expires":["Thu, 19 Nov 1981 08:52:00 GMT"],"level":"info","message":"API response headers:","pragma":["no-cache"],"server":["Apache"],"set-cookie":["frontend=e4751c6750cd94e061191c53fea5c500; expires=Mon, 03-Jun-2024 12:48:16 GMT; Max-Age=3600; path=/","frontend_cid=GdVWltxY16qKIoH3; expires=Mon, 03-Jun-2024 12:48:16 GMT; Max-Age=3600; path=/; domain=demo.fireworksmedia.com; secure"],"timestamp":"2024-06-03T11:48:17.034Z","transfer-encoding":["chunked"]}
+{"level":"info","message":"API response text:","timestamp":"2024-06-03T11:48:17.035Z"}
